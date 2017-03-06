@@ -5,7 +5,10 @@ My development environment is a Mac book using Visual Studio Code as the IDE.
 
 ## Projects
 **OLED display** using the Adafruit Featherwing OLED 128x32 pixel display and the ESP32-DevKit C.  
-The ESP_IDF framwork used is "esp-idf-v2.0-rc1".  
+The ESP_IDF framework used is "esp-idf-v2.0-rc1". This framework has support for the I2C hardware.  
+This project began with the basic LED blink example which is still part of the project.  There are two tasks running.  One task is the blinking and the other is the display.  
+The display is controlled using the U8G2 library which is included under the components folder.  
+
 ![OLED project](https://github.com/fessmeier/esp32/blob/readme-edits/OLED_idf2.1/OLED_example.png)
 
 ## Visual Studio Code
