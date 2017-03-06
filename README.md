@@ -6,6 +6,7 @@ My development environment is a Mac book using Visual Studio Code as the IDE.
 ## Projects
 **OLED display** using the Adafruit Featherwing OLED 128x32 pixel display and the ESP32-DevKit C.  
 The ESP_IDF framwork used is "esp-idf-v2.0-rc1".  
+![OLED project](https://github.com/fessmeier/esp32/blob/readme-edits/OLED_idf2.1/OLED_example.png)
 
 ## Visual Studio Code
 I started with Eclipse and CDT as my IDE.  However, when I tried to debug C/C++ code the debugger would not work.  GDB works fine from the command line just not from Eclipse.  Also, when I tried debuggging the ESP32 through JTAG it did not work so well.  This was mainly due to the ESP32 and OpenOCD not Eclipse.  Since the combination of Eclipse and OpenOCD could not provide easy debugging I decided to just go with a simple editor that could be configured to compile code.  VS Code seemed to fit the bill and so far it's doing what I expected.  Hopefully in the near future I can try getting it set up for debugging.  
