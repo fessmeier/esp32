@@ -1,0 +1,38 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "0.1.0",
+    "command": "make",
+    "isShellCommand": true,
+    "args": [],
+    "showOutput": "always",
+    "echoCommand": true,
+    "options": {
+        "env": {
+            "IDF_PATH":"/Users/frank/esp/esp-idf-v2.0-rc1"
+        }
+    },
+    "tasks": [
+        {
+            "taskName": "Make App",
+            "args": ["app"],
+            "suppressTaskName": true
+        },
+        {
+            "taskName": "Make All",
+            "args": ["all"],
+            "isBuildCommand": true,
+            "suppressTaskName": true    
+        },     
+        {
+            "taskName": "Make Flash",
+            "args": ["flash"],
+            "suppressTaskName": true
+        },
+        {
+            "taskName": "Make Clean",
+            "args": ["clean"],
+            "suppressTaskName": true
+        }
+    ]
+}
