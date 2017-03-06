@@ -9,7 +9,7 @@ The ESP_IDF framework used is "esp-idf-v2.0-rc1". This framework has support for
 This project began with the basic LED blink example which is still part of the project.  There are two tasks running.  One task is the blinking and the other is the display.  
 The display is controlled using the U8G2 library which is included under the components folder.  
 
-![OLED project](https://github.com/fessmeier/esp32/blob/readme-edits/OLED_idf2.1/OLED_example.png)
+![OLED project](https://github.com/fessmeier/esp32/blob/master/OLED_idf2.1/OLED_example.png)
 
 ## Visual Studio Code
 I started with Eclipse and CDT as my IDE.  However, when I tried to debug C/C++ code the debugger would not work.  GDB works fine from the command line just not from Eclipse.  Also, when I tried debuggging the ESP32 through JTAG it did not work so well.  This was mainly due to the ESP32 and OpenOCD not Eclipse.  Since the combination of Eclipse and OpenOCD could not provide easy debugging I decided to just go with a simple editor that could be configured to compile code.  VS Code seemed to fit the bill and so far it's doing what I expected.  Hopefully in the near future I can try getting it set up for debugging.  
