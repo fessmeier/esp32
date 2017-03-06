@@ -1,0 +1,41 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "/usr/include",
+                "/usr/local/include",
+                "/Users/frank/esp/esp-idf-v2.0-rc1/components/freertos",
+                "/Users/frank/esp/esp-idf-v2.0-rc1/components/driver",
+                "/Users/frank/esp/esp-idf-v2.0-rc1/components/nvs_flash",
+                "/Users/frank/esp/esp-idf-v2.0-rc1/components/esp32",
+                "/Users/frank/esp/esp-idf-v2.0-rc1/components/log"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "/usr/include",
+                "/usr/local/include"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        },
+        {
+            "name": "Win32",
+            "includePath": [
+                "C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/include/*"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        }
+    ]
+}
